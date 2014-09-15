@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Tareas-iniciales : Sistemas y Tecnologías Web: Tarea inicial">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Tareas-iniciales</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/alu0100611298/Tareas-iniciales">View on GitHub</a>
+
+          <h1 id="project_title">Tareas-iniciales</h1>
+          <h2 id="project_tagline">Sistemas y Tecnologías Web: Tarea inicial</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/alu0100611298/Tareas-iniciales/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/alu0100611298/Tareas-iniciales/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="sistemas-y-tecnolog%C3%ADas-web-tarea-inicial" class="anchor" href="#sistemas-y-tecnolog%C3%ADas-web-tarea-inicial"><span class="octicon octicon-link"></span></a>Sistemas y Tecnologías Web: Tarea inicial</h3>
+
+<p><strong>Autor:</strong> Eliezer Cruz Suárez: alu0100611298</p>
+
+<h2>
+<a name="instalaci%C3%B3n-de-rvm" class="anchor" href="#instalaci%C3%B3n-de-rvm"><span class="octicon octicon-link"></span></a>Instalación de RVM:</h2>
+
+<p>RVM es una herramienta de línea de comandos que permite instalar fácilmente, gestionar y trabajar con múltiples entornos de rubí y seleccionar conjuntos de gemas.</p>
+
+<p>Para ello nos dirigimos <a href="http://crguezl.github.io/apuntes-ruby/node571.html">aquí</a>.</p>
+
+<p>Utilizamos el siguiente comando</p>
+
+<p><code>\curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby</code></p>
+
+<p>y en mi caso ejecutar este comando</p>
+
+<p><code>source /home/eliezer/.rvm/scripts/rvm</code></p>
+
+<p>Una imagen de mi version actual de rvm:</p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/rvm.png" alt="Alt text"></p>
+
+<h2>
+<a name="ruby" class="anchor" href="#ruby"><span class="octicon octicon-link"></span></a>Ruby</h2>
+
+<p>Es lenguaje de programación dinámico y de código abierto enfocado en la simplicidad y productividad. Su elegante sintaxis se siente natural al leerla y fácil al escribirla.</p>
+
+<p>En mi caso tengo la versión ruby 2.1.2p95, como se ve en la imagen al ejecutar el comando <code>ruby -v</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/ruby.png" alt="Alt text"></p>
+
+<h2>
+<a name="bundler" class="anchor" href="#bundler"><span class="octicon octicon-link"></span></a>Bundler</h2>
+
+<p>Bundler ofrece un entorno coherente para proyectos Rubí mediante el seguimiento y la instalación de las gemas y las versiones exactas que se necesitan.</p>
+
+<p>Primero ejecutaremos:</p>
+
+<p><code>gem install bundler</code></p>
+
+<p>Crearemos un Gemfile y ejecutaremos el siguiente comando para comprobar que funciona:</p>
+
+<p><code>bundle install</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/bundler.png" alt="Alt text"></p>
+
+<h2>
+<a name="sinatra" class="anchor" href="#sinatra"><span class="octicon octicon-link"></span></a>Sinatra</h2>
+
+<p>Podemos encontrar las gemas publicadas en <a href="https://rubygems.org/">rubygems</a> ejecutamos para instalar:</p>
+
+<p><code>gem install sinatra</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/sinatra.png" alt="Alt text"></p>
+
+<h2>
+<a name="twitter" class="anchor" href="#twitter"><span class="octicon octicon-link"></span></a>Twitter</h2>
+
+<p>Seguiremos el mismo proceso anterior:</p>
+
+<p><code>gem install twitter</code></p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/twitter.png" alt="Alt text"></p>
+
+<h2>
+<a name="git" class="anchor" href="#git"><span class="octicon octicon-link"></span></a>Git</h2>
+
+<p>Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.</p>
+
+<p>Para instalar git:</p>
+
+<p><code>sudo apt-get install git</code></p>
+
+<p>Para ver la versión instalada:</p>
+
+<p><code>git --version</code></p>
+
+<p>Tengo la version 1.9.1 instalada:</p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/git.png" alt="Alt text"></p>
+
+<p>Para configurarlo por primera vez accedemos <a href="https://help.github.com/articles/set-up-git">aquí</a></p>
+
+<p>Generando las ssh <a href="https://help.github.com/articles/generating-ssh-keys">keys</a>, seguimos el tutorial de la pagina.</p>
+
+<p><img src="https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/ssh.png" alt="Alt text"></p>
+
+<p><em>Eliezer Cruz Suárez SYTW 2014-2015</em></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Tareas-iniciales maintained by <a href="https://github.com/alu0100611298">alu0100611298</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
