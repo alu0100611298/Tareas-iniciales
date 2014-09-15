@@ -81,6 +81,26 @@ Generando las ssh [keys](https://help.github.com/articles/generating-ssh-keys), 
 
 ![Alt text](https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/ssh.png)
 
-##   
+## gh-pages
+
+Seguimos el tutorial [aquí](https://pages.github.com/)
+
+En mi caso lo generé automaticamente,nos dirigimos a opciones en el repositorio donde queremos publicar la página.
+
+![Alt text](https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/gh-pages1.png)
+
+En github pages elegimos, generar la página automaticamente:
+
+![Alt text](https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/gh-pages2.png)
+
+Cargamos en fichero README.md para que la conversión se haga automática.
+
+![Alt text](https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/gh-pages3.png)
+
+Y continuamos eligiendo una plantilla.
+
+![Alt text](https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/gh-pages4.png)
+
+El resultado lo podemos ver [aquí](http://alu0100611298.github.io/Tareas-iniciales)
 
 *Eliezer Cruz Suárez SYTW 2014-2015*
