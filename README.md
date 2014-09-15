@@ -10,11 +10,11 @@ Para ello nos dirigimos [aquí](http://crguezl.github.io/apuntes-ruby/node571.ht
 
 Utilizamos el siguiente comando
 
-`\curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby
+`\curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby`
 
 y en mi caso ejecutar este comando
 
-`source /home/eliezer/.rvm/scripts/rvm
+`source /home/eliezer/.rvm/scripts/rvm`
 
 Una imagen de mi version actual de rvm:
 
@@ -24,7 +24,7 @@ Una imagen de mi version actual de rvm:
 
 Es lenguaje de programación dinámico y de código abierto enfocado en la simplicidad y productividad. Su elegante sintaxis se siente natural al leerla y fácil al escribirla.
 
-En mi caso tengo la versión ruby 2.1.2p95, como se ve en la imagen al ejecutar el comando `ruby -v
+En mi caso tengo la versión ruby 2.1.2p95, como se ve en la imagen al ejecutar el comando `ruby -v`
 
 ![Alt text](https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/ruby.png)
 
@@ -35,13 +35,13 @@ Bundler ofrece un entorno coherente para proyectos Rubí mediante el seguimiento
 
 Primero ejecutaremos:
 
-`gem install bundler
+`gem install bundler`
 
 Crearemos un Gemfile y ejecutaremos el siguiente comando para comprobar que funciona:
 
-`bundle install
+`bundle install`
 
-![Alt text]((https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/bundler.png)
+![Alt text](https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/bundler.png)
 
 ## Sinatra
 
@@ -55,7 +55,7 @@ Podemos encontrar las gemas publicadas en [rubygems](https://rubygems.org/) ejec
 
 Seguiremos el mismo proceso anterior:
 
-`gem install twitter
+`gem install twitter`
 
 ![Alt text](https://raw.githubusercontent.com/alu0100611298/Tareas-iniciales/master/imagenes/twitter.png)
 
@@ -65,11 +65,11 @@ Git es un software de control de versiones diseñado por Linus Torvalds, pensand
 
 Para instalar git:
 
-`sudo apt-get install git
+`sudo apt-get install git`
 
 Para ver la versión instalada:
 
-`git --version
+`git --version`
 
 Tengo la version 1.9.1 instalada:
 
